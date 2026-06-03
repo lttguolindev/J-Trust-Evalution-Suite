@@ -41,6 +41,8 @@ J-Trust-Evaluation-Suite/
     ├── fig10_radar.csv                         # Multi-dimensional capability evaluation
     └── fig11_zkp_overhead.csv                  # ZKP prover/verifier computational logs
 
+```
+
 ## 🚀How to Reproduce the Figures
 We strictly avoid using inline hardcoded arrays for our performance evaluation. All figures (Fig 3 to Fig 11) in the manuscript are generated dynamically by parsing the raw CLI-style logs located in the raw_data/ directory.
 
