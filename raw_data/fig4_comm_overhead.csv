@@ -1,0 +1,9 @@
+[INFO] =================================================================
+[INFO] NETWORK COMMUNICATION OVERHEAD LOGGER
+[INFO] Measurement Unit: Kilobytes (KB) per operation broadcast
+[INFO] =================================================================
+Operation,         Centralized,   SingleChain,   JTrust
+User Registration, 0.5,           5.0,           2.5
+Data Release,      1.2,           18.5,          4.5
+Member Join,       0.2,           120.0,         3.8
+Member Removal,    0.2,           120.0,         3.8
