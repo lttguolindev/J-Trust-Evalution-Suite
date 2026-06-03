@@ -67,6 +67,9 @@ The plotting scripts utilize a custom load_cli_csv function to automatically cle
 All generated figures will be automatically saved in high-quality academic formats (PNG, PDF, and EPS) in a newly created generated_figures/ directory. Notably, the macro-system throughput and the architectural ablation charts are plotted with explicit Standard Deviation ($\pm \sigma$) Error Bars to empirically demonstrate the network jitter observed during our 1,000 independent iterations of stress testing.
 
 ## 📜 Dataset Provenance & Cryptographic Standards
-·Dataset: The payload data used for the RPC stress testing in this evaluation suite was sampled from the DeepJiandu Dataset (https://doi.org/10.57760/sciencedb.08560).
-·Ontology: The metadata structure strictly complies with the international CIDOC CRM ontology standards (ISO 21127:2014) for cultural heritage interoperability.
-·Cryptography: ZKP parameters are standardized over the BN254 (ALT_BN128) elliptic curve, maintaining EVM compatibility. The cross-chain verification strictly consumes constant $\mathcal{O}(1)$ Gas on the main chain.
+### Dataset: 
+The payload data used for the RPC stress testing in this evaluation suite was sampled from the DeepJiandu Dataset (https://doi.org/10.57760/sciencedb.08560).
+### Ontology: 
+The metadata structure strictly complies with the international CIDOC CRM ontology standards (ISO 21127:2014) for cultural heritage interoperability.
+### Cryptography: 
+ZKP parameters are standardized over the BN254 (ALT_BN128) elliptic curve, maintaining EVM compatibility. The cross-chain verification strictly consumes constant $\mathcal{O}(1)$ Gas on the main chain.
