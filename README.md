@@ -57,15 +57,14 @@ Navigate to the benchmarks/ directory and run the reproduction script:
 
 ### Bash
 cd benchmarks
-
-# 1. Reproduce Main Manuscript Figures (Fig 3 to Fig 11)
+#### 1. Reproduce Main Manuscript Figures (Fig 3 to Fig 11)
 python reproduce_figures.py
-
-# 2. Reproduce Ablation Study Results (Table 5 & Extended Charts)
+#### 2. Reproduce Ablation Study Results (Table 5 & Extended Charts)
 python plot_ablation.py
 
 ## Output & Methodology
-The plotting scripts utilize a custom load_cli_csv function to automatically clean terminal tags (e.g., [INFO], [DEBUG]) and strip aligned whitespaces from the raw data files, extracting the pure dataframes.All generated figures will be automatically saved in high-quality academic formats (PNG, PDF, and EPS) in a newly created generated_figures/ directory. Notably, the macro-system throughput and the architectural ablation charts are plotted with explicit Standard Deviation ($\pm \sigma$) Error Bars to empirically demonstrate the network jitter observed during our 1,000 independent iterations of stress testing.
+The plotting scripts utilize a custom load_cli_csv function to automatically clean terminal tags (e.g., [INFO], [DEBUG]) and strip aligned whitespaces from the raw data files, extracting the pure dataframes.
+All generated figures will be automatically saved in high-quality academic formats (PNG, PDF, and EPS) in a newly created generated_figures/ directory. Notably, the macro-system throughput and the architectural ablation charts are plotted with explicit Standard Deviation ($\pm \sigma$) Error Bars to empirically demonstrate the network jitter observed during our 1,000 independent iterations of stress testing.
 
 ## 📜 Dataset Provenance & Cryptographic Standards
 ·Dataset: The payload data used for the RPC stress testing in this evaluation suite was sampled from the DeepJiandu Dataset (https://doi.org/10.57760/sciencedb.08560).
