@@ -1,0 +1,13 @@
+[WARN]  Executing Heavy CP-ABE Decryption (Target: Mobile Clients)
+[INFO]  Incrementing policy attributes from 5 to 50
+Attributes,   Centralized,   SingleChain,   JTrust
+5,            3.5,           0.0,           15.5
+10,           3.5,           0.0,           21.0
+15,           3.5,           0.0,           26.5
+20,           3.5,           0.0,           32.0
+25,           3.5,           0.0,           37.5
+30,           3.5,           0.0,           43.0
+35,           3.5,           0.0,           48.5
+40,           3.5,           0.0,           54.0
+45,           3.5,           0.0,           59.5
+50,           3.5,           0.0,           65.0
